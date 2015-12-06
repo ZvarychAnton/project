@@ -121,7 +121,7 @@ $homePage = $_POST['homePage'];
 $message = $_POST['message'];
 $fileName = $better_token.'.'.$ext;
  
- $query = "INSERT INTO `project`.`form_data_table`
+ $query = "INSERT INTO `bq10cn5vs`.`form_data_table`
 		( `userName`, `eMail`, `homePage`, `message`, `fileName`, `ip`, `browser`, `dataStamp`)	
 		VALUES
 		(:userName, :eMail, :homePage, :message, :fileName, :ip, :browser,  CURRENT_TIMESTAMP);
