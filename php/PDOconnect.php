@@ -14,7 +14,7 @@
 		}
 		public static function connect(){
 			try {
-				$conn = new PDO('mysql:host=localhost;dbname=project', 'root', 'Vt#kZ0b1');
+				$conn = new PDO('mysql:host=bq10cn5vs.mysql.clvrcld.net;dbname=bq10cn5vs', 'uxeh8r6wvf24hnzx', 'LU1r0haEqBZwsDTDFyC');
 				$conn->exec("SET NAMES 'utf8'");
 				$conn->exec("SET CHARACTER SET 'utf8'");
 				$conn->exec("SET SESSION collation_connection = 'utf8_general_ci'");
