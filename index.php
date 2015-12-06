@@ -100,7 +100,7 @@
 				</div>
 				<br>
 				<em id ="pictureMistake" class = "mistakes label label-important" >Check your attached file</em>
-				<span class="label label-warning">For image: only GPG, PNG, GIF formats. For txt file: only .txt format, less 100 kb. 
+				<span class="label label-warning">For image: only JPG, PNG, GIF formats. For txt file: only .txt format, less 100 kb. 
 				</span>
 			</p>
 			
